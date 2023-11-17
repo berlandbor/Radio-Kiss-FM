@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Радиоплеер KissFM_Deep_HD</title>
+    <title>Радиоплеер KissFM_Digital_HD</title>
     <style>
         body {
             /*display: flex;*/
@@ -58,14 +58,14 @@
 <body>
   <h1>berlandbor</h1>
     <div class="radio-player">
-        <div class="station-name">KissFM_Deep_HD</div>
+        <div class="station-name">KissFM_Digital_HD</div>
         <button id="playButton">Play</button>
         <button id="stopButton">Stop</button>
         <div class="status" id="statusText">Ready</div>
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const audioStream = new Audio('https://link.smmbox.ru/http://online.kissfm.ua/KissFM_Deep_HD');
+            const audioStream = new Audio('https://online.kissfm.ua/KissFM_Digital_HD');
             const playButton = document.getElementById('playButton');
             const stopButton = document.getElementById('stopButton');
             const statusText = document.getElementById('statusText');
